@@ -2,15 +2,34 @@
 <html>
 <head>
 <style>
-th, td {
-  border-style:solid;
-  border-color: #7285E8;
-}
+  .Listado{
+    background-color: #7285E8;
+    border: 2px solid black;
+    margin: 30px;
+    padding: 5px;
+
+  }
+  tr:nth-last-child(odd){
+    background-color: aqua;
+  }
+
+  td:hover{
+    background-color:azure;
+    color:blueviolet;
+
+  }
+ 
+  th, td {
+    border-style:solid;
+    border-color: #7285E8;
+  }
+
+
 </style>
 </head>
 <body>
-
-<table style="width:100%">
+<center>
+<table style="width:55%">
   <caption><b>LISTA DE COMPRAS</b></caption>
   <tr>
     <th>Productos</th>
@@ -64,6 +83,27 @@ th, td {
   <td>4200</td>
 </tr>
 </table>
+</center>
+
+<div class="Listado">
+<ul>
+  
+  
+<h2>Lista de Aseo</h2>
+<dl>
+  <dt><li>Ivan Jara</li></dt>
+  <dd>31/10/2022</dd>
+  <dt><li>Maria Jose Silva</li></dt>
+  <dd>1/11/2022</dd>
+  <dt><li>Yineth Bello</li></dt>
+  <dd>2/11/2022</dd>
+
+</dl>
+
+
+</ul>
+
+</div>
 
 </body>
 </html>
